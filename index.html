@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <!-- Tailwaind CSS Connected -->
+    <!-- Tailwind CSS Connected -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -184,33 +184,87 @@
     <section
       class="container mx-auto bg-linear-to-l from-red-600 to-orange-400 rounded-[10px] grid grid-cols-2 gap-8 mb-[90px] p-[70px]"
     >
-      <div class="left">
-        <h2 class="font-extrabold text-[45px] text-[#F4F4F4] pb-[20px]">
-          Meet Our Super <br />
-          Clients
-        </h2>
-        <p class="font-medium text-[16px] text-[#F4F4F4] pb-[30px]">
-          There are many variations of passages of Lorem Ipsum <br />
-          available, but the majority have suffered alteration in some <br />
-          form, by injected humour, or randomised words which don't <br />
-          look even slightly believable.
-        </p>
-        <button class="w-36 h-14 bg-white rounded-md font-semibold text-[20px]">
-          <span
-            class="bg-linear-to-r from-orange-400 to-red-600 bg-clip-text text-transparent"
-            >Show All</span
+      <div class="left flex items-center">
+        <div>
+          <h2 class="font-extrabold text-[45px] text-[#F4F4F4] pb-[20px]">
+            Meet Our Super <br />
+            Clients
+          </h2>
+          <p class="font-medium text-[16px] text-[#F4F4F4] pb-[30px]">
+            There are many variations of passages of Lorem Ipsum <br />
+            available, but the majority have suffered alteration in some <br />
+            form, by injected humour, or randomised words which don't <br />
+            look even slightly believable.
+          </p>
+          <button
+            class="w-36 h-14 bg-white rounded-md font-semibold text-[20px]"
           >
-        </button>
+            <span
+              class="bg-linear-to-r from-orange-400 to-red-600 bg-clip-text text-transparent"
+              >Show All</span
+            >
+          </button>
+        </div>
       </div>
 
-      <div class="right border-2 border-green-500">
-        <div>
-          <p>
-            We are providing the best and suitable home insurance services for
-            the people who are interested to treatment
+      <div class="right relative">
+        <!-- Review Card -->
+        <div
+          class="p-11 w-[433px] bg-white rounded-lg absolute -left-[100px] top-[100px] z-50"
+        >
+          <p class="text-[#777777] text-[16px] pb-[20px]">
+            We are providing the best and suitable home <br />
+            insurance services for the people who are <br />
+            interested to treatment
           </p>
-          <h2>Ilham Yuda</h2>
-          <p>Businessman</p>
+          <h2 class="font-bold text-2xl">Ilham Yuda</h2>
+          <p class="text-[#777777]">Businessman</p>
+          <div class="absolute -top-4 -left-4 bg-white rounded-full p-2">
+            <img class="" src="./images/client.png" alt="" />
+          </div>
+          <img
+            src="./images/circles.png"
+            alt=""
+            class="absolute right-4 bottom-4"
+          />
+        </div>
+        <!-- Review Card -->
+        <div
+          class="p-11 w-[433px] bg-white rounded-lg relative mb-[50px] opacity-20"
+        >
+          <p class="text-[#777777] text-[16px] pb-[20px]">
+            We are providing the best and suitable home <br />
+            insurance services for the people who are <br />
+            interested to treatment
+          </p>
+          <h2 class="font-bold text-2xl">Ilham Yuda</h2>
+          <p class="text-[#777777]">Businessman</p>
+          <div class="absolute -top-4 -left-4 bg-white rounded-full p-2">
+            <img class="" src="./images/client.png" alt="" />
+          </div>
+          <img
+            src="./images/circles.png"
+            alt=""
+            class="absolute right-4 bottom-4"
+          />
+        </div>
+        <!-- Review Card -->
+        <div class="p-11 w-[433px] bg-white rounded-lg relative opacity-20">
+          <p class="text-[#777777] text-[16px] pb-[20px]">
+            We are providing the best and suitable home <br />
+            insurance services for the people who are <br />
+            interested to treatment
+          </p>
+          <h2 class="font-bold text-2xl">Ilham Yuda</h2>
+          <p class="text-[#777777]">Businessman</p>
+          <div class="absolute -top-4 -left-4 bg-white rounded-full p-2">
+            <img class="" src="./images/client.png" alt="" />
+          </div>
+          <img
+            src="./images/circles.png"
+            alt=""
+            class="absolute right-4 bottom-4"
+          />
         </div>
       </div>
     </section>
